@@ -10,7 +10,7 @@ styles/Home.module.css: Um módulo CSS específico para estilizar a página Home
 
 Componentes Simples (sem estado)
 O componente Headeré um exemplo de componente React funcional e sem estado, que apenas exibe conteúdo.
-´import React from 'react';
+´´´import React from 'react';
 const Header = () => {
     return (
         <header>
@@ -18,7 +18,6 @@ const Header = () => {
         </header>
     );
 };
-
 export default Header;`
 
 
