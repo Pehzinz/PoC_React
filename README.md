@@ -8,9 +8,10 @@ styles/globals.css: CSS global para aplicar estilos em toda a aplicação.
 styles/Home.module.css: Um módulo CSS específico para estilizar a página Home, com classes aplicadas apenas aos elementos da página principal.
 
 
-Componentes Simples (sem estado)
-O componente Headeré um exemplo de componente React funcional e sem estado, que apenas exibe conteúdo.
-`import React from 'react';
+1) Componentes Simples (sem estado)
+    O componente Headeré um exemplo de componente React funcional e sem estado, que apenas exibe conteúdo.
+```
+import React from 'react';
 const Header = () => {
     return (
         <header>
@@ -18,14 +19,15 @@ const Header = () => {
         </header>
     );
 };
-export default Header;`
+export default Header;
+```
 
 
-Estilos CSS (Global e Módulo)
-CSS Global
-O arquivo globals.cssaplica estilos em todo o projeto, incluindo configurações gerais para o bodye o header. É útil para definir estilos que serão reutilizados em diferentes componentes e páginas.
-
-`body {
+2) Estilos CSS (Global e Módulo)
+    CSS Global
+    O arquivo globals.cssaplica estilos em todo o projeto, incluindo configurações gerais para o bodye o header. É útil para definir estilos que serão reutilizados em diferentes componentes e páginas.
+```
+body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
@@ -36,12 +38,14 @@ header {
     color: white;
     padding: 20px;
     text-align: center;
-}`
+}
+```
 
 
-Módulo CSS
-O Home.module.cssdefina estilos escondidos para a página Home, com classes exclusivas para organizar e formatar a estrutura da página.
-`.container {
+3) Módulo CSS
+    O Home.module.cssdefina estilos escondidos para a página Home, com classes exclusivas para organizar e formatar a estrutura da página.
+```
+.container {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -54,12 +58,12 @@ O Home.module.cssdefina estilos escondidos para a página Home, com classes excl
     color: #333;
     font-size: 2rem;
     text-align: center;
-}`
+}
+```
 
 
-Objetivo do Projeto
-Esta prova de conceito tem o objetivo de ilustrar o uso de Next.js e React para:
-
-Criar componentes simples e reutilizáveis.
-Aplicar estilos globais e CSS modularizados.
-Demonstrar a organização e estrutura básica de um projeto em Next.js.
+Objetivo do Projeto:
+Conceito de ilustrar o uso de Next.js e React para:
+- Criar componentes simples e reutilizáveis.
+- Aplicar estilos globais e CSS modularizados.
+- Demonstrar a organização e estrutura básica de um projeto em Next.js.
