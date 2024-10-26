@@ -2,6 +2,7 @@ POC_React - Projeto de Demonstração em Next.js
 Este projeto foi criado como uma prova de conceito (POC) para explorar conceitos fundamentais do Next.js 14+. Ele inclui exemplos de componentes React sem estado, bem como estilos CSS globais e módulos CSS para estilização específica.
 
 
+
 1) Componentes Simples (sem estado)
     O componente Headeré um exemplo de componente React funcional e sem estado, que apenas exibe conteúdo.
 ```
