@@ -10,7 +10,7 @@ styles/Home.module.css: Um módulo CSS específico para estilizar a página Home
 
 Componentes Simples (sem estado)
 O componente Headeré um exemplo de componente React funcional e sem estado, que apenas exibe conteúdo.
-```import React from 'react';
+`import React from 'react';
 const Header = () => {
     return (
         <header>
@@ -18,13 +18,14 @@ const Header = () => {
         </header>
     );
 };
-export default Header;```
+export default Header;`
 
 
 Estilos CSS (Global e Módulo)
 CSS Global
 O arquivo globals.cssaplica estilos em todo o projeto, incluindo configurações gerais para o bodye o header. É útil para definir estilos que serão reutilizados em diferentes componentes e páginas.
-body {
+
+`body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
@@ -35,12 +36,12 @@ header {
     color: white;
     padding: 20px;
     text-align: center;
-}
+}`
 
 
 Módulo CSS
 O Home.module.cssdefina estilos escondidos para a página Home, com classes exclusivas para organizar e formatar a estrutura da página.
-.container {
+`.container {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -53,7 +54,7 @@ O Home.module.cssdefina estilos escondidos para a página Home, com classes excl
     color: #333;
     font-size: 2rem;
     text-align: center;
-}
+}`
 
 
 Objetivo do Projeto
